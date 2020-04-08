@@ -1,6 +1,6 @@
 # InternetCheck
 
-#Step 1
+Step 1:
 Add it in your root build.gradle at the end of repositories:
 allprojects {
 		repositories {
@@ -9,13 +9,13 @@ allprojects {
 		}
 	}
 
-#Step 2
+Step 2:
 Add the dependency in applications build.gradle
 dependencies {
 	        implementation 'com.github.dattatraynande:InternetCheck:Tag'
 	}
 
-#Step 3
+Step 3:
 Implement your Activity with "Connectivity.ConnectivityListener" 
 
 Add code in onCreate method of Activity
