@@ -18,7 +18,7 @@ Add the dependency in applications build.gradle
 
 dependencies {
 
-	        implementation 'com.github.dattatraynande:InternetCheck:Tag'
+	        implementation 'com.github.dattatraynande:InternetCheck:1.0.0'
 
 	}
 
