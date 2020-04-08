@@ -1,20 +1,25 @@
 # InternetCheck
 
 Step 1:
-Add it in your root build.gradle:
+Add below code in your root build.gradle:
 
 allprojects {
+
 		repositories {
-			...
+
 			maven { url 'https://jitpack.io' }
+
 		}
+
 	}
 
 Step 2:
 Add the dependency in applications build.gradle
 
 dependencies {
+
 	        implementation 'com.github.dattatraynande:InternetCheck:Tag'
+	        
 	}
 
 Step 3:
